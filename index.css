@@ -6,12 +6,15 @@
   width: 100%;
   min-height: 100%;
   margin: 0 auto;
+  /* background-image: url(./images/sapsan.jpg); */
+  background-image: url(./images/sapsanBlur.jpg);
 }
 
 .header {
   margin: 0 auto;
-  height: 50px;
-  /* box-shadow: 0px 1px 3px rgb(0 0 0 / 10%); */
+  height: 55px;
+  background-color: aliceblue;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 10%);
 }
 
 .header__logo {
@@ -22,11 +25,16 @@
 
 .content {
   margin: 0 auto;
+  background-color: white;
+  height: 310px;
+  width: 450px;
+  border-radius: 10px;
 }
 
 .content__titile {
   font-family: "RussianRail G Pro";
   margin: 250px 0 10px 0;
+  padding-top: 13px;
   text-align: center;
   font-weight: 600;
   color: #f3513f;
